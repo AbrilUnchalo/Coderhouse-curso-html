@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #0400ff, #0017f1, #0022e3, #0028d5, #002dc6, #0048d9, #00b4eb, #00c5fb, #00eaff, #00ffe5, #00ff66, #4aff00);
+    background-repeat: no-repeat;
+} 
+
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between; /* alinea elementos a los extremos */
+    align-items: center; /* centra verticalmente los elementos */
+    background-color: rgb(117 190 218 / 0.5);
+    padding: 10px;
+    font-family: "pt serif";
+  }
+  
+.barra-navegacion img {
+    height: 60px;
+  }
+  
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  
+.barra-navegacion li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra-navegacion :hover {
+    color: #000000;
+}
+
+.inicio {
+    position: relative;
+    margin: auto;
+    background-image: url(../img/IMG_6063.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.inicio h1 {
+    position: absolute;
+    top: 370px; left: 500px;
+    font-size: 100px;
+    color: white;
+    font-family: "pt serif";
+}
+
+.inicio h2 {
+    position: absolute;
+    top: 310px; left: 500px;
+    font-size: 60px;
+    color: white;
+    font-family: "pt serif";
+}
+
+.flecha {
+    position: absolute;
+    top: 300; left: 200px; /*no puedo poner la flecha al lado de "conocer mas" */
+}
+
+.button1 {
+    border-radius: 25px;
+    background-image: linear-gradient();
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 30px 120px 30px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    text-align: left;
+    top: 550px; left: 500px;
+}
+
+.presentacion {
+    margin-top: 150px;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+.presentacion h2 {
+    font-size: 100px;
+}
+
+.presentacion p {
+    font-size: 50px;
+    margin: 80px 300px;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    height: 800px;
+    width: 30%;
+    font-size: 50px;
+    background-color: rgba(0, 42, 255, 0.5); /* 50% transparent */
+    padding: 90px;
+}
+
+.video1 {
+    height: 900px;
+    width: 100%;
+}
+
+.modelos {
+    display: flex;
+    font-family: "pt serif";
+    justify-content: flex-end; /*para alinear todo a la derecha*/
+    color: white;
+}
+
+.imagen-modelo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 10px;
+    height: 700px;
+    margin-top: 100px;
+  }
+
+.imagen-modelo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* asegura que las imágenes se ajusten al tamaño fijo */
+  }
+  
+.imagen-modelo h3 {
+    margin: 10px 0 5px;
+    font-size: 45px;
+  }
+  
+.imagen-modelo p {
+    margin: 0;
+    font-size: 30px;
+  }
+
+.titulo1 {
+    color: white;
+    position: absolute;
+    left: 100px; top: 200px;
+    font-size: 50px;
+}
+
+.no-boton {
+    position: absolute;
+    left: 100px; top: 500px;
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "lato";
+    border-color: #000000;
+    border: 3px;
+    text-decoration: none;
+}
+
+.envios {
+    background-color: rgba(79, 163, 149, 0.5); 
+    margin: 2%;
+}
+
+.cont-envios {
+    display: flex;
+    font-family: "pt serif";
+    justify-content: center;
+    color: white;
+}
+
+.item-img img{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 10px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.tubos {
+    position: absolute;
+    height: 800px;
+    top: 350px; right: 150px;
+}
+
+.contacto {
+    background-image: url(../img/IMG_4326.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+    width: 100%;
+}
+
+.comentarios {
+    height: 50vh;
+    width: 100%;
+    font-size: 50px;
+}
+ 
+/*FOOTER*/
+
+footer {
+    background-color: #00ff95;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footercont {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
