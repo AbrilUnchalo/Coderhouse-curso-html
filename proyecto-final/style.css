@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,400&display=swap');
 
+/* background general */ 
+body {
+   background: rgb(255, 255, 255)
+}
+
 /* pantalla inicio */ 
 .containerInicio {
     display: grid;
@@ -31,20 +36,19 @@
   .containerInicio h1 {
     font-size: 4rem;
     margin-bottom: 10px;
+    font-family: "PT SERIF";
   }
   
   .containerInicio h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    font-family: "LATO";
   }
   
   .containerInicio button {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
     font-size: 1.2rem;
     cursor: pointer;
+    font-family: "lato";
   }
   
   @media (max-width: 768px) {
@@ -64,5 +68,39 @@
       text-align: center;
     }
   }
-   
+
+.firefly {
+  padding: 10% 10% 0%;
+  font-size: 3rem;
+  text-shadow: -1px 0px 31px rgba(205, 205, 205, 0.61);
+}
+.pad {
+  padding: 2% 10%;
+  font-size: 2rem;
+}
+
+.pad2 {
+  margin-bottom: 20%;
+}
+
+.tituloModelos {
+  margin: 5% 0% 2% 5%;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .tituloModelos {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .tituloModelos br {
+    display: none;
+  }
+
+  .tituloModelos h1 {
+    white-space: nowrap;
+  }
+}
+
  
