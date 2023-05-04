@@ -3,7 +3,7 @@
 
 /* background general */ 
 body {
-   background: rgb(255, 255, 255)
+   background: rgb(246, 246, 246)
 }
 
 /* pantalla inicio */ 
@@ -85,7 +85,14 @@ body {
 
 .tituloModelos {
   margin: 5% 0% 2% 5%;
+  padding: 2%;
   font-size: 2rem;
+  background-color: rgba(53, 162, 86, 0.5); 
+  font-family: "PT SERIF";
+}
+
+.tituloModelos a {
+  font-family: "LATO";
 }
 
 @media (max-width: 768px) {
@@ -103,4 +110,54 @@ body {
   }
 }
 
+.card {
+  background-color: rgba(53, 162, 86, 0.2);
+ /* margin-right: 10%;*/
+}
+
+.bkCaracteristicas {
+  background-color: rgba(53, 162, 86, 0.5);
+}
  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.tamaño {
+  font-size: 10rem;
+  margin: 15% 5% 5% 15%;
+  color: #fff;
+}
+
+.textoTec {
+  font-weight: bold;
+  font-family: "LATO";
+  color: #000000;
+}
+
+.CaracTec {
+  margin: 8%;
+  font-family: "PT SERIF";
+  text-align: center;
+}
+
+.videos {
+  margin: 5%;
+}
+
+.videos h1,h2 {
+  font-size: 3rem;
+  font-family: "PT SERIF";
+  text-shadow: -1px 0px 31px rgba(0, 0, 0, 0.61);
+}
+
+.videos p {
+  font-size: 1rem;
+  font-family: "LATO";
+}
+
+
