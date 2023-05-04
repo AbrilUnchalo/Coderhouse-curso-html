@@ -44,19 +44,19 @@ body {
   }
   
   .containerInicio h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 10px;
     font-family: "PT SERIF";
   }
   
   .containerInicio h2 {
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     font-family: "LATO";
   }
   
   .containerInicio button {
-    font-size: 1.2rem;
+    font-size: 2rem;
     cursor: pointer;
     font-family: "lato";
   }
