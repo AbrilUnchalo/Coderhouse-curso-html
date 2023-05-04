@@ -160,4 +160,31 @@ body {
   font-family: "LATO";
 }
 
+.bkEnvios {
+  background-color: rgba(53, 162, 86, 0.5);
+  padding: 3%;
+}
+
+.bkEnvios h1 {
+  margin-bottom: 5%;
+  font-family: "PT SERIF";
+  font-size: 3rem;
+}
+
+.bkEnvios ul {
+  background-color: transparent !important;
+  font-family: "LATO";
+  font-size: 1.5rem;
+}
+
+.enviosDif {
+  background-color: rgba(53, 162, 86, 0.5);
+  padding: 3%;
+  margin: 5%;
+}
+
+.enviosDif h2 {
+  text-align: center !important;
+  padding-top: 10% !important;
+}
 

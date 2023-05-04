@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- barra de navegacion -->
-
+  <header>
     <nav class="navbar navbar-expand-lg">
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,56 +35,49 @@
             </ul>
           </div>
       </nav>
-     
-     <header class="envios">
-        <h1>Envios a todo el pais</h1>
-        <div class="cont-envios">
-        <div class="item-img">
-            <img src="../img/caja.png" alt="packaging">
-            <img src="../img/camion1.png" alt="packaging">
-            <img src="../img/camion2.png" alt="packaging">
-        </div>
-        <p>Embalados con tubos de carton reforzado<br>
-            Packaging reutilizable<br>
-            Los envíos tardan entre 3 y 6 días según la region<br>
-            Envios e-comerce por correo argentino con seguimiento
-        </p>
-        </div>
-        <img class="tubos" src="/img/tubos de carton.png" alt="packaging">
-     </header>
-     
-     <h2>TIPOS DE ENVIOS</h2>
-     <article class="cont-envios2">
-        <div class="dom">
+  </header> 
+  <main class="container bkEnvios mx-auto">
+    <h1 class="row">Envios a todo el pais</h1>
+    <article class="row">
+        <ul class="list-group col ">
+          <li class="list-group-item">Embalados con tubos de carton reforzado</li>
+          <li class="list-group-item">Packaging reutilizable</li>
+          <li class="list-group-item">Los envíos tardan entre 3 y 6 días según la region</li>
+          <li class="list-group-item">Envios e-comerce por correo argentino con seguimiento</li>
+        </ul>
+      <img class="img-fluid col-3" src="/img/tubos de carton.png" alt="packaging">
+    </article>
+  </main>
+   
+  <section class="container mx-auto">
+     <h2 class="">TIPOS DE ENVIOS</h2>
+     <article class="row">
+        <div class="col enviosDif">
             <h3>A DOMICILIO</h3>
-            <ol>
-                <li>Servicio puerta a puerta.</li>
-                <li>Posibilidad de realizar seguimiento en línea del envío en tiempo real.</li>
-                <li>El correo elije los horarios de entrega del paquete, hay que asegurarse que haya gente para recibir el paquete.</li>
-            </ol>
-            <p>ADICIONAL $500</p>
+            <ul class="list-unstyled">
+                <li class="list-group-item">Servicio puerta a puerta.</li>
+                <li class="list-group-item">Posibilidad de realizar seguimiento en línea del envío en tiempo real.</li>
+                <li class="list-group-item">El correo elije los horarios de entrega del paquete, hay que asegurarse que haya gente para recibir el paquete.</li>
+            </ul>
+            <button type="button" class="btn btn-light">ADICIONAL $500</button>
         </div>
-        <div class="suc">
+        <div class="col enviosDif">
             <h3>A SUCURSAL</h3>
-            <ol>
-                <li>Opción de retiro en una sucursal cercana, para mayor comodidad del cliente.</li>
-                <li>Posibilidad de realizar seguimiento en línea del envío en tiempo real.</li>
-                <li>Flexibilidad de horarios de retiro, adaptándose a las necesidades del cliente.</li>
-            </ol>
-            <p>SIN CARGO</p>
+            <ul class="list-unstyled">
+                <li class="list-group-item">Opción de retiro en una sucursal cercana, para mayor comodidad del cliente.</li>
+                <li class="list-group-item">Posibilidad de realizar seguimiento en línea del envío en tiempo real.</li>
+                <li class="list-group-item">Flexibilidad de horarios de retiro, adaptándose a las necesidades del cliente.</li>
+            </ul>
+            <button type="button" class="btn btn-light">SIN CARGO</button>
         </div>
      </article>
-     <footer>
-        <div class="footercont">
-          <p>&copy; todos los derechos reservados</p>
-          <nav>
-            <ul>
-              <li><a href="/index.html">Inicio</a></li>
-              <li><a href="#">instagram</a></li>
-              <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
-        </div>
-      </footer>
+  </section>
+  <footer>
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.instagram.com/firefly_rgb/">Firefly RGB</a>
+      </div>
+    </nav>
+</footer>
 </body>
 </html>
