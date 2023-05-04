@@ -6,6 +6,16 @@ body {
    background: rgb(246, 246, 246)
 }
 
+@media (max-width: 768px) {
+  #navbarNav li {
+    font-size: 3rem;
+  }
+
+  .containerInicio {
+    font-size: 5rem;
+  }
+}
+
 /* pantalla inicio */ 
 .containerInicio {
     display: grid;
