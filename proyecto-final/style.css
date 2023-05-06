@@ -12,7 +12,12 @@ body {
   }
 
   .containerInicio {
-    font-size: 5rem;
+    font-size: 0.2rem;
+  }
+
+  .portada {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -61,23 +66,6 @@ body {
     font-family: "lato";
   }
   
-  @media (max-width: 768px) {
-    .containerInicio {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto;
-    }
-  
-    .containerInicio img {
-      grid-row: 2 / 3;
-      grid-column: 1 / 2;
-    }
-  
-    .containerInicio .textoInicio {
-      grid-row: 1 / 2;
-      grid-column: 1 / 2;
-      text-align: center;
-    }
-  }
 
 .firefly {
   padding: 10% 10% 0%;
@@ -105,6 +93,12 @@ body {
   font-family: "LATO";
 }
 
+.containerModelos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
 @media (max-width: 768px) {
   .tituloModelos {
     text-align: center;
@@ -117,6 +111,14 @@ body {
 
   .tituloModelos h1 {
     white-space: nowrap;
+  }
+
+  .containerModelos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .imgEnvios {
+    display: none;
   }
 }
 
@@ -198,3 +200,11 @@ body {
   padding-top: 10% !important;
 }
 
+video {
+  max-width: 100%;
+}
+
+.bkDeco {
+  background-color: rgba(53, 162, 86, 0.5);
+  padding: 3%;
+}
