@@ -6,6 +6,11 @@ body {
    background: rgb(246, 246, 246)
 }
 
+.imagen-grande {
+  display: block;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   #navbarNav li {
     font-size: 3rem;
@@ -15,9 +20,27 @@ body {
     font-size: 0.2rem;
   }
 
-  .portada {
+  
+
+  .imagen-mediana {
+    display: block;
     width: 100%;
-    height: auto;
+  }
+
+  .imagen-grande {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imagen-pequeña {
+    display: block;
+    width: 100%;
+  }
+
+  /* Esconde la imagen mediana */
+  .imagen-mediana {
+    display: none;
   }
 }
 
