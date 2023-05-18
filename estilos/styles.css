@@ -258,4 +258,8 @@ video {
 .bkDeco {
   background-color: rgba(53, 162, 86, 0.5);
   padding: 3%;
+}
+
+.contTextForm {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */
