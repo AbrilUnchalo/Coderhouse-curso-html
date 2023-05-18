@@ -129,6 +129,9 @@ body {
   .imgEnvios {
     display: none;
   }
+  .card {
+    animation: none !important;
+  }
 }
 @media (max-width: 545px) {
   .containerInicio {
@@ -187,6 +190,13 @@ body {
   background-color: rgba(53, 162, 86, 0.2);
 }
 
+.animateCards {
+  transition: transform 0.3s;
+}
+.animateCards:hover {
+  transform: scale(1.1);
+}
+
 .bkCaracteristicas {
   background-color: rgba(53, 162, 86, 0.5);
 }
@@ -211,6 +221,7 @@ body {
   margin: 8%;
   font-family: "PT SERIF", serif;
   text-align: center;
+  font-size: 3rem;
 }
 
 .videos {

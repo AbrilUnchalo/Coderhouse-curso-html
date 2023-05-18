@@ -141,6 +141,9 @@ body
 
   .imgEnvios
     display: none
+  
+  .card
+    animation: none !important
 
   
   
@@ -195,13 +198,15 @@ body
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
   gap: 20px
  
-
-@media (max-width: 768px)
-  
-  
  
 .card
   background-color: $secondary-color
+
+.animateCards
+  transition: transform 0.3s
+  &:hover
+    transform: scale(1.1)
+
 
 .bkCaracteristicas
   background-color: $primary-color
@@ -223,6 +228,7 @@ body
   margin: 8%
   font-family: $font-primary
   text-align: center
+  font-size: 3rem
 
 .videos
   margin: 5%
